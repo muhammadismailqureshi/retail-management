@@ -28,6 +28,8 @@ SECURITY = {
 
 # UI Settings
 UI = {
+    'APP_NAME': APP_NAME,
+    'VERSION': VERSION,
     'WINDOW_SIZE': '1200x800',
     'MIN_WINDOW_SIZE': '1000x700',
     'THEME': 'default',

@@ -12,10 +12,10 @@ from pathlib import Path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # Import application modules
-from config import settings
-from database.connection import initialize_database
-from auth.login_window import LoginWindow
-from ui.main_window import MainWindow
+from retail_management_system.config import settings
+from retail_management_system.database.connection import initialize_database
+from retail_management_system.auth.login_window import LoginWindow
+from retail_management_system.ui.main_window import MainWindow
 
 # Configure logging
 os.makedirs(settings.PATHS['LOGS'], exist_ok=True)
@@ -44,7 +44,6 @@ def main():
         
         # Create the main application window
         root = tk.Tk()
-        root.withdraw()  # Hide the root window initially
         
         # Set application icon and title
         try:
@@ -65,8 +64,9 @@ def main():
             app = MainWindow(root, user_data)
             app.run()
         
-        # Show the login window
+        # Create and show the login window
         login_window = LoginWindow(root, on_login_success)
+        root.deiconify()  # Make sure the window is visible
         
         # Start the main event loop
         root.mainloop()

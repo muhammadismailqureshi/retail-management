@@ -150,3 +150,10 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# Old implementation files
+/fix_login.py
+/security.py
+/security_utils.py
+/test_app.py
+/__pycache__/

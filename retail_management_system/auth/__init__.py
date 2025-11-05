@@ -1,4 +1,4 @@
-""
+"""
 Authentication and authorization components for the Retail Management System.
 
 This package provides user authentication, authorization, and security features

@@ -1,4 +1,4 @@
-""
+"""
 Retail Management System - A comprehensive solution for managing retail store operations.
 
 This package provides modules for inventory management, sales processing, customer
