@@ -1,0 +1,57 @@
+2025-10-28 08:00:35,520 - security - WARNING - Failed login attempt for user: admin from IP: 172.16.0.2
+2025-10-28 08:00:35,521 - security - INFO - Security Event: {'timestamp': '2025-10-28T08:00:35.521487', 'event_type': 'login_failed', 'user_id': None, 'details': {'username': 'admin', 'ip': '172.16.0.2'}}
+2025-10-28 08:15:11,553 - security - INFO - Successful login for user: admin from IP: 172.16.0.2
+2025-10-28 08:15:11,554 - security - INFO - Security Event: {'timestamp': '2025-10-28T08:15:11.554443', 'event_type': 'login_success', 'user_id': 1, 'details': {'username': 'admin', 'ip': '172.16.0.2'}}
+2025-11-02 15:45:12,314 - security - WARNING - Failed login attempt for user: admin from IP: 10.197.24.159
+2025-11-02 15:45:12,314 - security - INFO - Security Event: {'timestamp': '2025-11-02T15:45:12.314858', 'event_type': 'login_failed', 'user_id': None, 'details': {'username': 'admin', 'ip': '10.197.24.159'}}
+2025-11-02 15:45:19,821 - security - WARNING - Failed login attempt for user: admin from IP: 10.197.24.159
+2025-11-02 15:45:19,821 - security - INFO - Security Event: {'timestamp': '2025-11-02T15:45:19.821157', 'event_type': 'login_failed', 'user_id': None, 'details': {'username': 'admin', 'ip': '10.197.24.159'}}
+2025-11-02 15:45:30,796 - security - WARNING - Failed login attempt for user: admin from IP: 10.197.24.159
+2025-11-02 15:45:30,796 - security - INFO - Security Event: {'timestamp': '2025-11-02T15:45:30.796648', 'event_type': 'login_failed', 'user_id': None, 'details': {'username': 'admin', 'ip': '10.197.24.159'}}
+2025-11-04 12:46:32,687 - security - INFO - Successful login for user: admin from IP: 172.16.0.2
+2025-11-04 12:46:32,687 - security - INFO - Security Event: {'timestamp': '2025-11-04T12:46:32.687034', 'event_type': 'login_success', 'user_id': 1, 'details': {'username': 'admin', 'ip': '172.16.0.2'}}
+2025-11-04 13:13:05,983 - security - INFO - Successful login for user: admin from IP: 172.16.0.2
+2025-11-04 13:13:05,983 - security - INFO - Security Event: {'timestamp': '2025-11-04T13:13:05.983952', 'event_type': 'login_success', 'user_id': 1, 'details': {'username': 'admin', 'ip': '172.16.0.2'}}
+2025-11-04 13:14:12,116 - security - INFO - Security Event: {'timestamp': '2025-11-04T13:14:12.116710', 'event_type': 'password_changed', 'user_id': 1, 'details': {'forced_change': True}}
+2025-11-04 13:14:14,612 - security - INFO - Successful login for user: admin from IP: 172.16.0.2
+2025-11-04 13:14:14,613 - security - INFO - Security Event: {'timestamp': '2025-11-04T13:14:14.613161', 'event_type': 'login_success', 'user_id': 1, 'details': {'username': 'admin', 'ip': '172.16.0.2'}}
+2025-11-04 13:14:14,634 - security - WARNING - Failed login attempt for user: admin from IP: 172.16.0.2
+2025-11-04 13:14:14,634 - security - INFO - Security Event: {'timestamp': '2025-11-04T13:14:14.634750', 'event_type': 'login_failed', 'user_id': None, 'details': {'username': 'admin', 'ip': '172.16.0.2'}}
+2025-11-04 13:14:14,768 - security - INFO - Security Event: {'timestamp': '2025-11-04T13:14:14.768069', 'event_type': 'application_start', 'user_id': 1, 'details': {'username': 'admin'}}
+2025-11-04 13:15:29,340 - security - WARNING - Failed login attempt for user: admin from IP: 172.16.0.2
+2025-11-04 13:15:29,340 - security - INFO - Security Event: {'timestamp': '2025-11-04T13:15:29.340853', 'event_type': 'login_failed', 'user_id': None, 'details': {'username': 'admin', 'ip': '172.16.0.2'}}
+2025-11-04 13:15:31,080 - security - WARNING - Failed login attempt for user: admin from IP: 172.16.0.2
+2025-11-04 13:15:31,080 - security - INFO - Security Event: {'timestamp': '2025-11-04T13:15:31.080147', 'event_type': 'login_failed', 'user_id': None, 'details': {'username': 'admin', 'ip': '172.16.0.2'}}
+2025-11-04 13:15:48,295 - security - INFO - Successful login for user: admin from IP: 172.16.0.2
+2025-11-04 13:15:48,295 - security - INFO - Security Event: {'timestamp': '2025-11-04T13:15:48.295659', 'event_type': 'login_success', 'user_id': 1, 'details': {'username': 'admin', 'ip': '172.16.0.2'}}
+2025-11-04 13:15:48,318 - security - WARNING - Failed login attempt for user: admin from IP: 172.16.0.2
+2025-11-04 13:15:48,318 - security - INFO - Security Event: {'timestamp': '2025-11-04T13:15:48.318733', 'event_type': 'login_failed', 'user_id': None, 'details': {'username': 'admin', 'ip': '172.16.0.2'}}
+2025-11-04 13:15:48,441 - security - INFO - Security Event: {'timestamp': '2025-11-04T13:15:48.441931', 'event_type': 'application_start', 'user_id': 1, 'details': {'username': 'admin'}}
+2025-11-04 13:17:19,969 - security - INFO - Successful login for user: admin from IP: 172.16.0.2
+2025-11-04 13:17:19,969 - security - INFO - Security Event: {'timestamp': '2025-11-04T13:17:19.969782', 'event_type': 'login_success', 'user_id': 1, 'details': {'username': 'admin', 'ip': '172.16.0.2'}}
+2025-11-04 13:17:19,993 - security - WARNING - Failed login attempt for user: admin from IP: 172.16.0.2
+2025-11-04 13:17:19,993 - security - INFO - Security Event: {'timestamp': '2025-11-04T13:17:19.993039', 'event_type': 'login_failed', 'user_id': None, 'details': {'username': 'admin', 'ip': '172.16.0.2'}}
+2025-11-04 13:17:20,129 - security - INFO - Security Event: {'timestamp': '2025-11-04T13:17:20.128340', 'event_type': 'application_start', 'user_id': 1, 'details': {'username': 'admin'}}
+2025-11-05 16:17:15,708 - security - WARNING - Failed login attempt for user: admin from IP: 172.16.0.2
+2025-11-05 16:17:15,708 - security - INFO - Security Event: {'timestamp': '2025-11-05T16:17:15.708909', 'event_type': 'login_failed', 'user_id': None, 'details': {'username': 'admin', 'ip': '172.16.0.2'}}
+2025-11-05 16:17:17,640 - security - WARNING - Failed login attempt for user: admin from IP: 172.16.0.2
+2025-11-05 16:17:17,640 - security - INFO - Security Event: {'timestamp': '2025-11-05T16:17:17.640816', 'event_type': 'login_failed', 'user_id': None, 'details': {'username': 'admin', 'ip': '172.16.0.2'}}
+2025-11-05 16:17:42,289 - security - INFO - Successful login for user: admin from IP: 172.16.0.2
+2025-11-05 16:17:42,289 - security - INFO - Security Event: {'timestamp': '2025-11-05T16:17:42.289005', 'event_type': 'login_success', 'user_id': 1, 'details': {'username': 'admin', 'ip': '172.16.0.2'}}
+2025-11-05 16:17:42,304 - security - WARNING - Failed login attempt for user: admin from IP: 172.16.0.2
+2025-11-05 16:17:42,304 - security - INFO - Security Event: {'timestamp': '2025-11-05T16:17:42.304785', 'event_type': 'login_failed', 'user_id': None, 'details': {'username': 'admin', 'ip': '172.16.0.2'}}
+2025-11-05 16:17:42,451 - security - INFO - Security Event: {'timestamp': '2025-11-05T16:17:42.451866', 'event_type': 'application_start', 'user_id': 1, 'details': {'username': 'admin'}}
+2025-11-05 16:22:21,708 - security - INFO - Successful login for user: admin from IP: 172.16.0.2
+2025-11-05 16:22:21,708 - security - INFO - Security Event: {'timestamp': '2025-11-05T16:22:21.708892', 'event_type': 'login_success', 'user_id': 1, 'details': {'username': 'admin', 'ip': '172.16.0.2'}}
+2025-11-05 16:22:21,733 - security - WARNING - Failed login attempt for user: admin from IP: 172.16.0.2
+2025-11-05 16:22:21,733 - security - INFO - Security Event: {'timestamp': '2025-11-05T16:22:21.733991', 'event_type': 'login_failed', 'user_id': None, 'details': {'username': 'admin', 'ip': '172.16.0.2'}}
+2025-11-05 16:22:21,844 - security - INFO - Security Event: {'timestamp': '2025-11-05T16:22:21.844789', 'event_type': 'application_start', 'user_id': 1, 'details': {'username': 'admin'}}
+2025-11-05 16:51:42,503 - security - WARNING - Failed login attempt for user: admin from IP: 172.16.0.2
+2025-11-05 16:51:42,503 - security - INFO - Security Event: {'timestamp': '2025-11-05T16:51:42.503581', 'event_type': 'login_failed', 'user_id': None, 'details': {'username': 'admin', 'ip': '172.16.0.2'}}
+2025-11-05 16:51:43,995 - security - WARNING - Failed login attempt for user: admin from IP: 172.16.0.2
+2025-11-05 16:51:43,995 - security - INFO - Security Event: {'timestamp': '2025-11-05T16:51:43.995818', 'event_type': 'login_failed', 'user_id': None, 'details': {'username': 'admin', 'ip': '172.16.0.2'}}
+2025-11-05 16:51:58,300 - security - INFO - Successful login for user: admin from IP: 172.16.0.2
+2025-11-05 16:51:58,300 - security - INFO - Security Event: {'timestamp': '2025-11-05T16:51:58.300466', 'event_type': 'login_success', 'user_id': 1, 'details': {'username': 'admin', 'ip': '172.16.0.2'}}
+2025-11-05 16:51:58,321 - security - WARNING - Failed login attempt for user: admin from IP: 172.16.0.2
+2025-11-05 16:51:58,321 - security - INFO - Security Event: {'timestamp': '2025-11-05T16:51:58.321577', 'event_type': 'login_failed', 'user_id': None, 'details': {'username': 'admin', 'ip': '172.16.0.2'}}
+2025-11-05 16:51:58,449 - security - INFO - Security Event: {'timestamp': '2025-11-05T16:51:58.449161', 'event_type': 'application_start', 'user_id': 1, 'details': {'username': 'admin'}}
